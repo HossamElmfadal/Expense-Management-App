@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  background-color: black;
+  margin-top: -8px;
+  padding-top: 15px;
+}
+.navbar-brand{
+  color: white;   
+  
+ }
+.navbar-brand:hover{
+ color: rgba(255, 255, 255, 0.714);   
+ 
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: rgba(255, 255, 255, 0.714);
+}
+
+.content{
+  height: 100vh;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+.table{
+  background-color: blueviolet;
+}
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(pages/tech.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* Transaction Page */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+
+}
+
+/* antd icons */
+.switch-icons {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+
+.inactive-icon {
+  color: gray;
+}
+
+
+/* LOGIN PAGE */
+
+.register_form{
+  border-width: 0 4px 8px 12px;
+  background-color: rgb(225, 225, 225);
+  padding: 50px;
+  border-radius: 10px;
+
+}
+
+ .insc{
+  padding-inline: 100px;
+ }
+
+ .footer{
+  margin-top: 100px;
+ }
+
+ .register_input{
+  /*background-color: rgba(195, 194, 194, 0.759);*/
+  border-color: rgb(97, 97, 97)
+ }
+
+ .inscrit{
+  color: rgba(43, 14, 117, 0.8);
+ }
